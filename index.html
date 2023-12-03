@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/355efc959c.js" crossorigin="anonymous"></script>
+   </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src ="Images/oig.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi,I'm <span>Pavan</span><br> Kumar From India</h1>
+                </div>
+            </div>
+        </div>
+        <!-------------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/background image 2.jpeg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>This is a brief introduction about me.Passionate Student Pursuing BCA At KLE Society's Degree College. Eager To Learn, Grow, And Contribute In The Field Of Biology,Chemistry And Climate Change. Actively Involved In Creating Ideas For New Technology Which Revolutionize The World And Creating Biology Theories, Fostering Teamwork And Leadership. Open To New Opportunities, Collaborations, And Internships To Apply Classroom Knowledge To Real-World Challenges. Committed To Continuous Improvement And Excited To Make A Positive Impact." I Believe In The Power Of Working Together To Save Our Home Earth And Strive To Make A Positive Impact In Both My Personal And Professional Spheres. This Website Serves As A Hub For My Thoughts, Projects, And Explorations. Whether You're Here For Biology Theory,Climate Change Etc., I Invite You To Join Me On This Journey Of Discovery. Let's Connect, Collaborate, And Explore The Possibilities Together. Thank You For Visiting!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>youtuber</li>
+                                <li><span>web designer</span><br>biology</li>
+                                <li><span>app</span><br>bca</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="experience">
+                            <ul>
+                                <li><span>2021-Current</span><br>learning</li>
+                                <li><span>2019 - 2021</span><br>biology</li>
+                                <li><span>2017 - 2019</span><br>bca</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>bangalore</li>
+                                <li><span>2016</span><br>karnataka</li>
+                                <li><span>2014</span><br>india</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------services------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>web designining</h2>
+                        <p>Improvement And Excited To Make A Positive Impact."</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-dna"></i>
+                        <h2>web </h2>
+                        <p>Improvement And Excited To Make A Positive Impact."</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                        <h2>youtuber</h2>
+                        <p>Improvement And Excited To Make A Positive Impact."</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-----------------------portfolio------------->
+        <div class="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Background Image.jpeg" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Improvement And Excited To Make A Positive Impact.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Background Image.jpeg" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Improvement And Excited To Make A Positive Impact.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Background Image.jpeg" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Improvement And Excited To Make A Positive Impact.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!------------contact--------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> kingpavankumar12@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9353448356</p>
+                    <div class="social-icons">
+                        <a href="http://www.youtube.com/@pavankumarworld1231"><i class="fa-brands fa-youtube"></i></a> 
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a> 
+                        <a href="https://whatsapp.com/channel/0029VaANnkkDOQIRNCUAfp3o"><i class="fa-brands fa-whatsapp"></i></a> 
+                        <a href="https://www.linkedin.com/in/pavan-kumar-world-a86463277"><i class="fa-brands fa-linkedin"></i></a> 
+                        
+                    </div>
+                    <a href="Images/Arrays and Pointers.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @Pavan-Kumar-World Made With  <i class="fa-solid fa-heart"></i> By Pavan Kumar</p>
+        </div>
+    </div>
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+           
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzg9k5aloJqmL2A4K8QnOI_JWWHrrIKj2nfb9NdeTE7aUsMINPCI3XZT83_0uJBsKNX/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg  = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message Has Been Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+    </html>
